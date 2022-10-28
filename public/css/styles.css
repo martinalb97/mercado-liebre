@@ -293,11 +293,11 @@ main #registro form nav {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
   main section .card-container article .descripcion {
-    font-size: 0;
-    transition: font-size 0.5s ease;
+    opacity: 0%;
+    transition: opacity 0.5s ease;
   }
   main section .card-container article:hover .descripcion {
-    font-size: 16px;
+    opacity: 100%;
   }
   main section .card-container article:hover footer i {
     transform: rotate(-90deg);
